@@ -1,0 +1,12 @@
+import java.util.*;
+class Utils
+{
+public static void main(String ar[])
+{
+Scanner a=new Scanner(System.in);
+System.out.print(" enter kilograms: ");
+int kg=a.nextInt();
+int grams=kg*1000;
+System.out.println("grams: " + grams);
+}
+}
